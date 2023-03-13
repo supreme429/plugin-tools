@@ -1,5 +1,5 @@
 {
-  "name": "vue2-debounce",
+  "name": "vue2-debounce-component",
   "version": "1.0.5",
   "description": "debounce directive for vue2.xx",
   "main": "dist/vue-debounce.min.js",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+git@github.com:supreme429/plugin-tools.git"
   },
-  "author": "",
+  "author": "supreme429",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.4",
