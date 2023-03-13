@@ -1,0 +1,21 @@
+module.exports = {
+	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+	env: {
+		browser: true
+	},
+	parser: '@typescript-eslint/parser',
+	parserOptions: {
+		ecmaVersion: 2017,
+		sourceType: 'module'
+	},
+	plugins: ['@typescript-eslint/eslint-plugin'],
+	rules: {
+		eqeqeq: [
+			'error',
+			'always',
+			{
+				null: 'ignore'
+			}
+		]
+	}
+};
