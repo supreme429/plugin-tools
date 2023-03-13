@@ -28,7 +28,7 @@ new Vue({
     <input type="text" @input="handleInput" />
   </Debounce>
 
-  
+
   <Debounce :timeout="300" events="input">
     <my-input type="text" @input="handleInput2"></my-input>
   </Debounce>
@@ -40,7 +40,7 @@ export default {
     handleInput(val){
       console.log(val, 'val')
     },
-    
+
     handleInput2(val){
       console.log(val, 'val2')
   }

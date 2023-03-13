@@ -1,7 +1,7 @@
 {
-  "name": "vue-debounce-component",
-  "version": "1.0.3",
-  "description": "debounce directive for vue 2.x.x.",
+  "name": "vue2-debounce",
+  "version": "1.0.5",
+  "description": "debounce directive for vue2.xx",
   "main": "dist/vue-debounce.min.js",
   "typings": "types/index.d.ts",
   "files": [
@@ -19,7 +19,7 @@
   "keywords": [
     "debounce",
     "vue",
-    "directive"
+    "component"
   ],
   "repository": {
     "type": "git",

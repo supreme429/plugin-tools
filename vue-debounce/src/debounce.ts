@@ -22,4 +22,4 @@ function Debounce<C = Vue>(fn: Function, delay: string|number = 300): Function {
     };
 }
 
-export { Debounce, };
+export { Debounce };
